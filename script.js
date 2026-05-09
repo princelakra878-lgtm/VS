@@ -1,9 +1,6 @@
-let a=20
-function add(){
-    var b=12
-    
-}
-console.log(b)
-add()
+let a=2
+let b=8
+var c=a+b
+console.log(c)
 
 
