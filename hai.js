@@ -1,7 +1,11 @@
-let a=20
-function add(){
-    var a=12
+let a=5
+let b=5
+let c=a+b
 
+var d=("hello sir")
+function aki(){
+    
 }
-console.log(a)
-add();
+console.log(c)
+console.log(d)
+aki()
