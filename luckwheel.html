@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="guess" min="2" max="6">
+    <p id="error"></p>
+    <p id="para">Guess the correct number</p>
+    <button onclick="validation()">click</button>
+    
+
+</body>
+<script>
+    
+    setInterval(() => {
+        
+    }, 2000);
+
+    let random=Math.ceil(Math.random()*5)
+console.log(random)
+
+ function validation(){
+    
+ 
+
+    let guessed=document.getElementById("guess").value
+    console.log(guessed);
+
+
+    let para=document.getElementById("para")
+    let error=document.getElementById("error")
+
+   
+         if(guessed<1){
+        error.textContent="number should be greater then 0"
+    }
+    else if(guessed<5){
+        para.textContent="number should be lower then 10"
+    }
+
+    else if(guessed<4){
+        para.textContent="your number is low"
+
+    }
+    
+}
+</script>
+</html>
