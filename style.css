@@ -1,0 +1,11 @@
+#social-media {
+    background: blueviolet;
+}
+
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid saddlebrown;
+    border-radius: 0.5rem;
+}
